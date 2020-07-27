@@ -5,7 +5,7 @@ let settings = {
   showOutOfStockItems: false,
   showDescription: false,
   currency: '₹',
-  shopphone: '919538065734',
+  shopphone: '919620522757',
   shopemail: 'None',
   inventoryURL: 'https://docs.google.com/spreadsheets/d/1-nPhN7wEQCGwWpt1KI6yY0FzP1-dGLgK2HRFMdG2R7g/pubhtml'
 };
@@ -41,7 +41,7 @@ function items_loaded(){
   var phoneitem;
   for(var i=0;i<items.length;i++){
     if(items[i].Name=="whatsapp_number"){
-      settings.shopphone="91"+items[i].Image;
+      //settings.shopphone="91"+items[i].Image;
       phoneitem=i;
       continue;	    
     }
